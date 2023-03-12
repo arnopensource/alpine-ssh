@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --build-arg PASSWORD=passowrd --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --build-arg PASSWORD=c137fbf1e4fe981dff21609fbfb3476b --file Dockerfile --tag ghcr.io/arnopensource/alpine-ssh:$(date +%s)
