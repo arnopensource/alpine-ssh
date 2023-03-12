@@ -1,5 +1,4 @@
-FROM alpine:3.5
-MAINTAINER Arvind Rawat <arvindr226@gmail.com>
+FROM alpine:3.17
 # Arguement for Password
 ARG PASSWORD
 # Installing the openssh and bash package, removing the apk cache
